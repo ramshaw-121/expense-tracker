@@ -54,7 +54,7 @@ function App() {
     <div style={{minHeight: '100vh', background: '#F8FAFC', padding: isMobile? '15px' : '30px', fontFamily: 'system-ui'}}>
       <div style={{maxWidth: '1100px', margin: '0 auto'}}>
         <h1 style={{fontSize: isMobile? '22px' : '28px', fontWeight: '800', margin: 0}}>Expense Dashboard</h1>
-        <p style={{color: '#64748B', marginTop: '5px', fontSize: isMobile? '13px' : '14px'}}>Phone & Laptop dono par kaam karega!</p>
+        <p style={{color: '#64748B', marginTop: '5px', fontSize: isMobile? '13px' : '14px'}}>Hisaab Kitaab</p>
 
         <form onSubmit={handleAdd} style={{background: 'white', padding: isMobile? '15px' : '20px', borderRadius: '16px', boxShadow: '0 2px 10px rgba(0,0,0,0.05)', display: 'flex', gap: '10px', margin: '20px 0', flexWrap: 'wrap'}}>
           <input
